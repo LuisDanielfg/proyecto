@@ -1,0 +1,54 @@
+.fondo{
+  margin-top: 2%;
+  background-color: rgb(219, 219, 219);
+  height: 22.1ex;
+  border-top: 1px solid;
+  padding: 10px;
+  box-shadow: 5px -20px 200px #888888;
+}
+.boton{
+  width: 100%;
+  
+}
+.boton:hover{
+  background-color: #5bc0de;
+}
+.navbar{
+  height: 100hv;
+  border:none;
+}
+
+  .a{
+
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: rgb(237, 237, 237);
+    border-radius: 8px 8px 8px 8px;
+  }
+  .a:hover {  
+    background: rgba(24, 120, 198, 0.19);
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .logo{
+      margin-left: 25%;
+      padding-bottom: 25px;
+  }
+
+  .card{
+
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 4px 0 rgba(0, 0, 0, 0.19);
+   
+  }
